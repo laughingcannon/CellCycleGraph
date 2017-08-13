@@ -1,8 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-max = 10000
-
 c = input("Enter number of cells:")
 phase = ["G1", "S", "G2/M"]
 a = np.zeros((3,3), dtype = np.int32)
